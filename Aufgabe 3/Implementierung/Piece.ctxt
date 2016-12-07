@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=x\ y\ horizontal
+comment0.target=Piece(int[],\ int[],\ boolean[])
+comment0.text=\r\n\ Erstellt\ einen\ neuen\ Knoten\ und\ alle\ dazugeh\u00F6rigen\ Nachfolger\r\n\ @param\ x\ Die\ x-Positionen\ der\ zu\ speichernden\ St\u00E4bchen\r\n\ @param\ y\ Die\ y-Positionen\ der\ zu\ speichernden\ St\u00E4bchen\r\n\ @param\ horizontal\ Ist\ wahr,\ wenn\ das\ St\u00E4bchen\ horizontal\ liegt\r\n
+comment1.params=x\ y\ horizontal
+comment1.target=boolean\ same(int,\ int,\ boolean)
+comment1.text=\r\n\ Vergleicht\ ein\ St\u00E4bchen\ mit\ diesem\r\n\ @param\ x\ Die\ x-Position\ des\ St\u00E4bchens\r\n\ @param\ y\ Die\ y-Position\ des\ St\u00E4bchens\r\n\ @param\ horizontal\ Ist\ wahr,\ wenn\ das\ St\u00E4bchen\ horizontal\ liegt\r\n\ @return\ Wahr,\ wenn\ die\ St\u00E4bchen\ gleich\ sind\r\n
+comment2.params=x\ y\ horizontal
+comment2.target=boolean\ isNewField(int[],\ int[],\ boolean[])
+comment2.text=\r\n\ \u00DCberpr\u00FCft,\ ob\ ein\ neues\ Feld\ entstanden\ ist\r\n\ @param\ x\ Die\ x-Positionen\ der\ St\u00E4bchen\r\n\ @param\ y\ Die\ y-Positionen\ der\ St\u00E4bchen\r\n\ @param\ horizontal\ Ist\ wahr,\ wenn\ das\ St\u00E4bchen\ horizontal\ liegt\r\n\ @return\ Wahr,\ wenn\ ein\ neues\ Feld\ entstanden\ ist\r\n
+numComments=3

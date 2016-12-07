@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=file
+comment0.target=Main(java.lang.String)
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=file
+comment2.target=void\ readPoints(java.lang.String)
+comment2.text=\r\n\ Einlesen\ der\ Datei\ und\ Speicherung\ der\ Punkte\ in\ einer\ ArrayList\r\n\ @param\ file\ Name\ der\ Datei\r\n
+comment3.params=
+comment3.target=void\ calculateMaxTimes()
+comment3.text=\r\n\ Berechnet\ f\u00FCr\ jedes\ Loch\ die\ schnellste\ Zeit\ in\ der\ Max\ dieses\ erreichen\ kann.\r\n\ Diese\ Werte\ werden\ in\ der\ ArrayList\ gespeichert\r\n
+comment4.params=
+comment4.target=java.lang.String\ getPossibleMinnieWay()
+comment4.text=\r\n\ Berechnet,\ ob\ es\ f\u00FCr\ Minnie\ eine\ M\u00F6glichkeit\ gibt,\ Max\ zu\ entkommen\r\n\ @return\ Ein\ m\u00F6glicher\ Fluchtplan\ in\ Form\ von\ Koordinaten\ bzw.\ die\ Meldung,\ dass\ Minnie\ nicht\ sicher\ entkommen\ kann\r\n
+comment5.params=row\ positionHeight\ timeSoFar
+comment5.target=java.lang.String\ calculateMinnieTime(int,\ double,\ double)
+comment5.text=\r\n\ Berechnet\ f\u00FCr\ eine\ bestimmte\ Reihe\ f\u00FCr\ jeden\ Punkt,\ ob\ Minnie\ dort\ schneller\ sein\ kann\ als\ Max.\ Falls\ ja,\ wird\ mit\ dieser\ Zeit\ und\ Position\ in\ der\ n\u00E4chsten\ Reihe\ gerechnet.\r\n\ @param\ row\ Die\ zu\ betrachtende\ Reihe\r\n\ @param\ positionHeight\ Die\ y-Koordinate\ des\ Lochs\r\n\ @param\ timeSoFar\ Die\ bisher\ ben\u00F6tigte\ Zeit\r\n\ @return\ Ein\ m\u00F6glicher\ Fluchtplan\ in\ Form\ von\ Koordinaten\ bzw.\ die\ Meldung,\ dass\ Minnie\ nicht\ sicher\ entkommen\ kann\r\n
+comment6.params=height1\ height2
+comment6.target=double\ calculateDistance(double,\ double)
+comment6.text=\r\n\ Berechnung\ der\ Distanz\ von\ einem\ Punkt\ zu\ einem\ anderen\ in\ der\ n\u00E4chsten\ Reihe\r\n\ @param\ height1\ y-Koordinate\ des\ ersten\ Punkts\r\n\ @param\ height2\ y-Koordinate\ des\ zweiten\ Punkts\r\n
+numComments=7

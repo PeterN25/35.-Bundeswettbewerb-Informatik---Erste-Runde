@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=height\ big
+comment0.target=Point(double,\ boolean)
+comment0.text=\r\n\ Erzeugt\ einen\ neuen\ Punkt\r\n\ @param\ height\ y-Koordinate\r\n\ @param\ big\ Wahr,\ wenn\ Max\ durch\ die\ L\u00FCcke\ passt\r\n
+comment1.params=
+comment1.target=double\ getHeight()
+comment2.params=
+comment2.target=boolean\ isBig()
+comment3.params=time
+comment3.target=void\ setMaxTime(double)
+comment4.params=
+comment4.target=double\ getMaxTime()
+numComments=5

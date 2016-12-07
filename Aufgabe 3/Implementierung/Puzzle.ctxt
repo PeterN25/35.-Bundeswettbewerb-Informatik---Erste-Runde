@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=field\ open\ position\ pieces
+comment0.target=Puzzle(int[][],\ int,\ int,\ int)
+comment0.text=\r\n\ Erstellt\ ein\ neues\ Puzzle\r\n\ @param\ field\ Zweidimensionales\ Feld\ aus\ ganzen\ Zahlen,\ welches\ das\ Puzzle\ darstellt\r\n\ @param\ open\ Seite\ der\ \u00D6ffnung\ (unten\=0,\ rechts\=1,\ oben\=2,\ links\=3)\r\n\ @param\ position\ Position\ der\ \u00D6ffnung\ von\ links,\ wenn\ die\ Seite\ unten\ w\u00E4re\r\n\ @param\ pieces\ Anzahl\ an\ St\u00E4bchen\r\n
+comment1.params=
+comment1.target=java.lang.String\ bestSolution()
+comment1.text=\r\n\ L\u00F6st\ das\ Puzzle\r\n\ @return\ Die\ beste\ Drehfolge\r\n
+comment2.params=open
+comment2.target=java.util.ArrayList\ getArrayList(int)
+comment2.text=\r\n\ Gibt\ die\ ArrayList\ f\u00FCr\ Felder,\ bei\ welchen\ die\ \u00D6ffnung\ auf\ der\ angegebenen\ Seite\ ist,\ zur\u00FCck\r\n\ @param\ open\ Seite\ der\ \u00D6ffnung\r\n\ @return\ Entsprechende\ ArrayList\r\n
+comment3.params=field
+comment3.target=Piece\ makeField(int[][])
+comment3.text=\r\n\ Erstellt\ Knoten,\ die\ das\ Feld\ in\ die\ rekursiven\ Datenstruktur\ der\ bereits\ vorgekommenen\ Felder\ speichert\r\n\ @param\ field\ Das\ zu\ speichernde\ Feld\r\n\ @return\ Der\ erste\ Knoten\r\n
+comment4.params=left\ field
+comment4.target=int[][]\ change(boolean,\ int[][])
+comment4.text=\r\n\ Dreht\ das\ Puzzle\ in\ die\ jeweilige\ Richtung\r\n\ @param\ left\ Wenn\ ja,\ dreht\ sich\ das\ Feld\ nach\ links\r\n\ @field\ Das\ zu\ drehende\ Feld\r\n\ @return\ Das\ gedrehte\ Feld\r\n
+comment5.params=field
+comment5.target=int[][]\ gravity(int[][])
+comment5.text=\r\n\ Simulation\ der\ Schwerkraft\:\ Freie\ St\u00E4bchen\ fallen\r\n\ @param\ field\ Das\ Feld,\ auf\ das\ die\ Schwerkraft\ wirkt\r\n\ @return\ Das\ bearbeitete\ Feld\r\n
+comment6.params=i\ j\ field
+comment6.target=int[][]\ barGravity(int,\ int,\ int[][])
+comment6.text=\r\n\ Freie\ St\u00E4bchen\ in\ Reihe\ fallen\r\n\ @param\ i\ Die\ zu\ \u00FCberpr\u00FCfende\ Reihe\r\n\ @param\ j\ Die\ in\ der\ Reihe\ zu\ \u00FCberpr\u00FCfende\ Position\r\n\ @param\ field\ Das\ zu\ \u00FCberpr\u00FCfende\ Feld\r\n\ @return\ Das\ bearbeitete\ Feld\r\n
+comment7.params=field\ order
+comment7.target=int\ check(int[][],\ java.lang.String)
+comment7.text=\r\n\ \u00DCberpr\u00FCfung,\ ob\ St\u00E4bchen\ herausf\u00E4llt,\ ein\ neues\ Feld\ entstanden\ ist\ oder\ das\ Feld\ bereits\ existiert\ hat\r\n\ @param\ field\ Das\ zu\ \u00FCberpr\u00FCfende\ Feld\r\n\ @param\ order\ Alle\ bisher\ durchgef\u00FChrten\ Drehungen\r\n\ @return\ Das\ Ergebnis\ (Puzzle\ gel\u00F6st\=0,\ neues\ Feld\=1,\ altes\ Feld\=2)\r\n
+numComments=8

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=s
+comment0.target=Main(java.lang.String)
+comment1.params=s
+comment1.target=void\ makeImage(java.lang.String)
+comment1.text=\r\n\ Erstellt\ die\ gef\u00E4rbten\ Bilder\ und\ speichert\ sie\ in\ das\ Verzeichnis\r\n\ @param\ s\ Dateiname\ des\ urspr\u00FCnglichen\ Bildes\r\n
+comment2.params=img
+comment2.target=java.awt.image.BufferedImage\ imgHorizontal(java.awt.image.BufferedImage)
+comment2.text=\r\n\ Gibt\ ein\ Bild\ zur\u00FCck,\ bei\ dem\ Pixel\ wei\u00DF\ gef\u00E4rbt\ wurden,\ wenn\ horizontal\ benachbarte\ Pixel\ die\ gleiche\ Farbe\ haben\r\n\ @param\ img\ Originalbild\r\n\ @return\ bearbeitetes\ Bild\r\n
+comment3.params=img
+comment3.target=java.awt.image.BufferedImage\ imgVertical(java.awt.image.BufferedImage)
+comment3.text=\r\n\ Gibt\ ein\ Bild\ zur\u00FCck,\ bei\ dem\ Pixel\ wei\u00DF\ gef\u00E4rbt\ wurden,\ wenn\ vertikal\ benachbarte\ Pixel\ die\ gleiche\ Farbe\ haben\r\n\ @param\ img\ Originalbild\r\n\ @return\ bearbeitetes\ Bild\r\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
